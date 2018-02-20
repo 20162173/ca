@@ -1,4 +1,5 @@
 -- File: xor.vhd
+-- Compiled by: Remigijus Beržinskas
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -14,4 +15,3 @@ architecture xor_arc of xor is
 begin
 o_f <= i_a xor i_b;
 end xor_arc;
---Komentaras
